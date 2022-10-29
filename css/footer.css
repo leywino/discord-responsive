@@ -1,0 +1,57 @@
+footer{
+    background-color: #23272a;
+}
+#footerhd{
+    color: #5865f2;
+    font-family: 'ginto_nord2';
+}
+#language{
+    font-size: 14px;
+    font-family: 'whitney2';
+    color: white;
+}
+#icons{
+    height: 24px;
+    width: 24px;
+}
+#flaglol{
+    width: 24px;
+    height: 16px;
+    margin-bottom: 16px;
+}
+#foothead{
+    color:#5865f2;
+}
+#footsub{
+    color:white;
+    font-family: 'whitney1';
+    text-decoration: none;
+}
+#footsub:hover{
+    text-decoration: underline;
+}
+#footcont{
+    padding-top: 50px;
+}
+#footerstuff{
+    display: inline-block;
+}
+#footimagine{
+    margin-left: 6vw;
+    padding-bottom: 50px;
+}
+hr.solid {
+    border-top: 3px solid #5865f2;
+    margin-right: 10%;
+    margin-left: 8%;
+}
+#odc{
+    margin-left: 8vw;
+}
+#button3{
+    background-color:#5865f2;
+    color: white;
+}
+#bottom{
+    padding-bottom: 50px;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'whitney2';
+}
+.header{
+    height: 80px;
+    background-color: #404eed;
+    position: relative;
+    z-index: 1;
+}
+.nav-link{
+    font-family: 'whitney2';
+    color: white;
+}
+.nav-link:hover{
+    font-family: 'whitney2';
+    color: white;
+    text-decoration: underline;
+}
+.open-discord{
+    padding: 7px 16px 7px 16px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 114px;
+    white-space: nowrap;
+    text-decoration: none;
+    border: none;
+    color: #23272a;
+    margin-right: 10vw;
+}
+.open-discord:hover{
+    color: #5865f2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.25s;
+}
+.navbar-toggler{
+    left: 10px;
+}
+.navbar-nav{
+    padding-right: 20px;
+}
+.home{
+    background-color: #404eed;
+    height: 546px;
+}
+h1{
+    font-family: 'ginto_nord2';
+    font-weight: 800;
+    color: white;
+}
+.smalltext{
+    font-family: 'whitney1';
+    font-weight: 400px;
+    color: white;
+}
+.texthome{
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+.button{
+    border-radius: 32px;
+    font-size: 20px;
+    padding: 14px 28px;
+    border: none;
+    white-space: nowrap;
+}
+
+#button1:hover{
+    color: #5865f2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.25s;
+}
+#button2:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.25s;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.25s;
+}
+@media (max-width: 768px){
+    #button1{
+        margin-bottom: 20px;
+        margin-left: 25px;
+    }
+    .texthome{
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+}
+@media (max-width: 992px){
+    #navbarNav{
+        position: absolute;
+        top: 70px;
+        right: 20px;
+    }
+    .navbar-brand{
+        margin-left: 2vw;
+    }
+    #navbarNav{
+        background-color: white;
+        border-radius: 5px;
+        border: solid;
+        border-color: rgb(225, 224, 224);
+        padding-left: 10px;
+    }
+    .nav-link{
+        color: black;
+    }
+    .nav-link:hover{
+        color: black;
+        text-decoration: underline;
+    }
+}
+@media (min-width: 992px){
+    .navbar-brand{
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+}

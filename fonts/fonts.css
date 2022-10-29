@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'ginto_nord2';
+    src: url('ginto_nord-webfont.woff2') format('woff2'),
+         url('ginto_nord-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ginto_nord';
+    src: url('ginto_nord2-webfont.woff2') format('woff2'),
+         url('ginto_nord2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'whitney1';
+    src: url('whitney_book-webfont.woff2') format('woff2'),
+         url('whitney_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'whitney2';
+    src: url('whitney_medium-webfont.woff2') format('woff2'),
+         url('whitney_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

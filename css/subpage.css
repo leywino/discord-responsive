@@ -1,0 +1,41 @@
+.subpage{
+    height: 680px;
+    width: 100%;
+}
+.subhdg{
+    color: #23272a;
+    font-family: 'whitney2';
+}
+#subcolor2{
+    background-color: #f6f6f6;
+}
+.fifthpage{
+    height: 80em;
+    background-color: #f6f6f6;
+}
+#fifthhead{
+    font-family: 'ginto_nord2';
+    color: #23272a;
+}
+#fifthsub{
+    font-family: 'whitney2';
+    color: black;
+}
+#button2{
+    color: white;
+    background-color: #5865f2;
+}
+
+.fifthwrite{
+    width: 65vw;
+}
+@media (max-width: 768px){
+    #button2{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .fifthwrite,#fifthsub{
+        margin-left: 25px;
+    }
+}
+
