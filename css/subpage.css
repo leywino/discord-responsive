@@ -1,5 +1,6 @@
 .subpage{
-    height: 680px;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
     width: 100%;
 }
 .subhdg{
@@ -10,8 +11,9 @@
     background-color: #f6f6f6;
 }
 .fifthpage{
-    height: 80em;
     background-color: #f6f6f6;
+    padding-top: 8vw;
+    padding-bottom: 8vw;
 }
 #fifthhead{
     font-family: 'ginto_nord2';
@@ -29,13 +31,33 @@
 .fifthwrite{
     width: 65vw;
 }
+#fifthsub{
+    padding-top: 5vw;
+}
+.fifthdec{
+    padding-bottom: 4vw;
+}
 @media (max-width: 768px){
     #button2{
         margin-left: 25px;
         margin-right: 25px;
     }
     .fifthwrite,#fifthsub{
-        margin-left: 25px;
+        margin-left: 8vw;
     }
 }
-
+@media (max-width: 786px){
+    #fifthhead{
+        width: 80vw;
+        font-size: 4vw;
+    }
+    .fifthdec{
+        width: 80vw;
+        text-align: start;
+    }
+    .subpage{
+        padding-top: 12vw;
+        padding-bottom: 12vw;
+        width: 100%;
+    }
+}
