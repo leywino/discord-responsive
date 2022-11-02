@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Discord</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   <link rel="stylesheet" href="fonts/fonts.css">
-   <link rel="stylesheet" href="css/home.css">
-   <link rel="stylesheet" href="css/subpage.css">
-   <link rel="stylesheet" href="css/footer.css">
-   <link rel="icon" href="images/fav-icon.png">
-</head>
-<body>
-   <header class="header position-relative">
-      <nav class="navbar navbar-expand-lg">
-         <div class="container-fluid d-lg-flex justify-content-lg-around p-2" id="maincontainer">
-            <a href="https://discord.com" class="navbar-brand">
-               <img src="images/discord_logo.png">
-            </a>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Discord</title>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+         crossorigin="anonymous">
+      <link rel="stylesheet" href="fonts/fonts.css">
+      <link rel="stylesheet" href="css/home.css">
+      <link rel="stylesheet" href="css/subpage.css">
+      <link rel="stylesheet" href="css/footer.css">
+      <link rel="icon" href="images/fav-icon.png">
+   </head>
+   <body>
+      <header class="header position-relative">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-lg-flex justify-content-lg-around p-2"
+               id="maincontainer">
+               <a href="https://discord.com" class="navbar-brand">
+                  <img src="images/discord_logo.png">
+               </a>
                <button
-               type="button"
-               class="navbar-toggler"
-               data-bs-toggle="collapse"
-               data-bs-target="#navbarNav"
-               aria-label="Toggle navigation"
-               aria-expanded="false"
-               aria-controls="navbarNav"
-               >
+                  type="button"
+                  class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navbarNav">
                   <span>
                      <img src="images/hamburger.png">
                   </span>
@@ -35,194 +39,242 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/download" class="nav-link active">Download</a>
+                        <a href="https://discord.com/download" class="nav-link
+                           active">Download</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/nitro" class="nav-link active">Nitro</a>
+                        <a href="https://discord.com/nitro" class="nav-link
+                           active">Nitro</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/discover" class="nav-link active">Discover</a>
+                        <a href="https://discord.com/discover" class="nav-link
+                           active">Discover</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/safety" class="nav-link active">Safety</a>
+                        <a href="https://discord.com/safety" class="nav-link
+                           active">Safety</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/support" class="nav-link active">Support</a>
+                        <a href="https://discord.com/support" class="nav-link
+                           active">Support</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/blog" class="nav-link active">Blog</a>
+                        <a href="https://discord.com/blog" class="nav-link
+                           active">Blog</a>
                      </li>
                   </ul>
                   <ul class="navbar-nav">
                      <li class="nav-item active">
-                        <a href="https://discord.com/careers" class="nav-link active">Careers</a>
+                        <a href="https://discord.com/careers" class="nav-link
+                           active">Careers</a>
                      </li>
                   </ul>
+               </div>
+               <button onclick="location.href='http://discord.com/login'"
+                  class="open-discord d-none d-lg-block">
+                  Open Discord
+               </button>
             </div>
-            <button onclick="location.href='http://discord.com/login'" class="open-discord d-none d-lg-block">
-               Open Discord
+         </nav>
+      </header>
+
+      <div class="home d-flex flex-column gap-4 position-relative
+         justify-content-center align-items-center">
+         <div class="texthome text-md-center align-items-md-start
+            align-items-lg-center d-flex flex-column gap-4">
+            <h1 class="bigtext">IMAGINE A PLACE...</h1>
+            <h5 class="smalltext">...where you can belong to a school club, a
+               gaming group, or a worldwide art community. Where just you and a
+               handful of friends can spend time together. A place that makes it
+               easy to talk every day and hang out more often.</h5>
+         </div>
+
+         <div class="gap-4 d-md-flex">
+            <button id="button1"
+               onclick="location.href='https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86'"
+               class="button">
+               <img src="images/download_icon.svg">Download For Windows
+            </button>
+            <button id="button2"
+               onclick="location.href='http://discord.com/login'" class="button
+               text-white bg-dark">
+               Open Discord in your browser
             </button>
          </div>
-      </nav>
-   </header>
 
-   <div class="home d-flex flex-column gap-4 position-relative justify-content-center align-items-center">
-      <div class="texthome text-md-center align-items-md-start align-items-lg-center d-flex flex-column gap-4">
-         <h1 class="bigtext">IMAGINE A PLACE...</h1>
-         <h5 class="smalltext">...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</h5>
-      </div>
-
-      <div class="gap-4 d-md-flex">
-         <button id="button1" onclick="location.href='https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86'" class="button">
-            <img src="images/download_icon.svg">Download For Windows
-         </button>
-         <button id="button2" onclick="location.href='http://discord.com/login'" class="button text-white bg-dark">
-            Open Discord in your browser
-         </button>
-      </div>
-
-      <div class="position-absolute bottom-0 end-0 d-none d-lg-block">
-         <img src="images/rightchill.png">
-      </div>
-      <div>
-         <div class="position-absolute bottom-0 start-0 d-none d-lg-block">
-            <img src="images/leftchill.png">
+         <div class="position-absolute bottom-0 end-0 d-none d-lg-block">
+            <img src="images/rightchill.png">
          </div>
-      </div>
-   </div>
-
-   <div class="subpage row align-items-center justify-content-center">
-      <div class="col-lg-7 col-10 col-md-6 col-sm-6">
-         <img class="img-fluid" src="images/first.svg">
-      </div>
-      <div class="col-lg-3 col-10 col-md-5 col-sm-5">
-         <h1 class="subhdg">Create an invite-only place where you belong</h1>
-         <h5 class="subdsc">Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat.</h5>
-      </div>
-   </div>
-
-   <div id="subcolor2" class="subpage row align-items-center justify-content-center">
-      <div class="col-lg-3 col-10 col-md-5 col-sm-5">
-         <h1 class="subhdg">Where hanging out is easy</h1>
-         <h5 class="subdsc">Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call.</h5>
-      </div>
-      <div class="col-lg-7 col-10 col-md-6 col-sm-6">
-         <img class="img-fluid" src="images/second.svg">
-      </div>
-   </div>
-
-   <div class="subpage row align-items-center justify-content-center">
-      <div class="col-lg-7 col-10 col-md-6 col-sm-6">
-         <img class="img-fluid" src="images/first.svg">
-      </div>
-      <div class="col-lg-3 col-10 col-md-5 col-sm-5">
-         <h1 class="subhdg">From few to a fandom</h1>
-         <h5 class="subdsc">Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more.</h5>
-      </div>
-   </div>
-
-   <div class="fifthpage d-flex flex-column align-items-md-center justify-content-evenly">
-      <div class="fifthwrite text-md-center">
          <div>
-            <h1 id="fifthhead" style="color:#23272a">RELIABLE TECH FOR STAYING CLOSE</h1>
-         </div>
-         <div class="fifthdec text-md-center">
-            <h5>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their games, or gather up and have a drawing session with screen share.</h5>
-         </div>
-      </div>
-      <div>
-         <img class="img-fluid" src="images/fourth.svg">
-      </div>
-      <div>
-         <h1 id="fifthsub">Ready to start your journey?</h1>
-      </div>
-      <button id="button2" onclick="location.href='https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86'" class="button">
-         <img src="images/download_icon2.png">Download For Windows
-      </button>
-   </div>
-   <footer>
-      <div id="footcont" class="container-fluid row">
-         <div id="footimagine" class="col-lg-3 col-md-12 mb-4 mb-md-0">
-            <h2 id="footerhd">IMAGINE A PLACE</h2>
-            <div class="d-flex align-items-center gap-1" id="language">
-               <img id="flaglol" src="images/flag.png">
-               <p>English, USA</p>
-            </div>
-            <div class="d-flex gap-4">
-               <a href="https://twitter.com/discord"><img id="icons" src="images/twitter.png"></a>
-               <a href="https://www.instagram.com/discord/"><img id="icons" src="images/instagram.png"></a>
-               <a href="https://www.facebook.com/discord/"><img id="icons" src="images/facebook.png"></a>
-               <a href="https://www.youtube.com/discord/"><img id="icons" src="images/youtube.png"></a>
+            <div class="position-absolute bottom-0 start-0 d-none d-lg-block">
+               <img src="images/leftchill.png">
             </div>
          </div>
+      </div>
 
-         <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-md-0"> 
-            <p id="foothead">Product</p>
-            <ul class="list-unstyled">
-               <li><a href="https://discord.com/download" id="footsub">Download</a></li>
-               <li><a href="https://discord.com/nitro" id="footsub">Nitro</a></li>
-               <li><a href="https://discordstatus.com/" id="footsub">Status</a></li>
-            </ul>
+      <div class="subpage row align-items-center justify-content-center">
+         <div class="col-lg-7 col-10 col-md-6 col-sm-6">
+            <img class="img-fluid" src="images/first.svg">
          </div>
-
-         <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-md-0"> 
-            <p id="foothead">Company</p>
-            <ul class="list-unstyled">
-               <li><a href="https://discord.com/company" id="footsub">About</a></li>
-               <li><a href="https://discord.com/jobs" id="footsub">Jobs</a></li>
-               <li><a href="https://discord.com/branding" id="footsub">Branding</a></li>
-               <li><a href="https://discord.com/newsroom" id="footsub">Newsroom</a></li>
-            </ul>
-         </div>
-
-         <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-md-0"> 
-            <p id="foothead">Resources</p>
-            <ul class="list-unstyled">
-               <li><a href="https://discord.com/college" id="footsub">College</a></li>
-               <li><a href="https://support.discord.com/hc/en-us" id="footsub">Support</a></li>
-               <li><a href="https://discord.com/safetycenter" id="footsub">Safety</a></li>
-               <li><a href="https://discord.com/blog" id="footsub">Blog</a></li>
-               <li><a href="https://feedback.discord.com/" id="footsub">Feedback</a></li>
-               <li><a href="https://discord.com/build" id="footsub">Developers</a></li>
-               <li><a href="https://discord.com/streamkit" id="footsub">StreamKit</a></li>
-            </ul>
-         </div>
-
-         <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4 mb-md-0"> 
-            <p id="foothead">Policies</p>
-            <ul class="list-unstyled">
-               <li><a href="https://discord.com/terms" id="footsub">Terms</a></li>
-               <li><a href="https://discord.com/privacy" id="footsub">Privacy</a></li>
-               <li><a href="https://discord.com/" id="footsub">Cookie Settings</a></li>
-               <li><a href="https://discord.com/guidelines" id="footsub">Guidelines</a></li>
-               <li><a href="https://discord.com/acknowledgements" id="footsub">Acknowledgements</a></li>
-               <li><a href="https://discord.com/licenses" id="footsub">Licenses</a></li>
-               <li><a href="https://discord.com/moderation" id="footsub">Moderation</a></li>
-            </ul>
+         <div class="col-lg-3 col-10 col-md-5 col-sm-5">
+            <h1 class="subhdg">Create an invite-only place where you belong</h1>
+            <h5 class="subdsc">Discord servers are organized into topic-based
+               channels where you can collaborate, share, and just talk about
+               your day without clogging up a group chat.</h5>
          </div>
       </div>
-      <hr class="solid">
-      <div id="bottom" class="d-flex align-items-center justify-content-between">
-         <div>
-            <a id="odc" href="https://discord.com"><img src="images/discord.png"></a>
+
+      <div id="subcolor2" class="subpage row align-items-center
+         justify-content-center">
+         <div class="col-lg-3 col-10 col-md-5 col-sm-5">
+            <h1 class="subhdg">Where hanging out is easy</h1>
+            <h5 class="subdsc">Grab a seat in a voice channel when you’re free.
+               Friends in your server can see you’re around and instantly pop in
+               to talk without having to call.</h5>
          </div>
-         <div>
-            <button id="button3" onclick="location.href='http://discord.com/login'" class="open-discord">
-               Open Discord
-            </button>
+         <div class="col-lg-7 col-10 col-md-6 col-sm-6">
+            <img class="img-fluid" src="images/second.svg">
          </div>
       </div>
-   </footer>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+
+      <div class="subpage row align-items-center justify-content-center">
+         <div class="col-lg-7 col-10 col-md-6 col-sm-6">
+            <img class="img-fluid" src="images/first.svg">
+         </div>
+         <div class="col-lg-3 col-10 col-md-5 col-sm-5">
+            <h1 class="subhdg">From few to a fandom</h1>
+            <h5 class="subdsc">Get any community running with moderation tools
+               and custom member access. Give members special powers, set up
+               private channels, and more.</h5>
+         </div>
+      </div>
+
+      <div class="fifthpage d-flex flex-column align-items-md-center
+         justify-content-evenly">
+         <div class="fifthwrite text-md-center">
+            <div>
+               <h1 id="fifthhead" style="color:#23272a">RELIABLE TECH FOR
+                  STAYING CLOSE</h1>
+            </div>
+            <div class="fifthdec text-md-center">
+               <h5>Low-latency voice and video feels like you’re in the same
+                  room. Wave hello over video, watch friends stream their games,
+                  or gather up and have a drawing session with screen share.</h5>
+            </div>
+         </div>
+         <div>
+            <img class="img-fluid" src="images/fourth.svg">
+         </div>
+         <div>
+            <h1 id="fifthsub">Ready to start your journey?</h1>
+         </div>
+         <button id="button2"
+            onclick="location.href='https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86'"
+            class="button">
+            <img src="images/download_icon2.png">Download For Windows
+         </button>
+      </div>
+      <footer>
+         <div id="footcont" class="container-fluid row">
+            <div id="footimagine" class="col-lg-3 col-md-12 mb-4 mb-md-0">
+               <h2 id="footerhd">IMAGINE A PLACE</h2>
+               <div class="d-flex align-items-center gap-1" id="language">
+                  <img id="flaglol" src="images/flag.png">
+                  <p>English, USA</p>
+               </div>
+               <div class="d-flex gap-4">
+                  <a href="https://twitter.com/discord"><img id="icons"
+                        src="images/twitter.png"></a>
+                  <a href="https://www.instagram.com/discord/"><img id="icons"
+                        src="images/instagram.png"></a>
+                  <a href="https://www.facebook.com/discord/"><img id="icons"
+                        src="images/facebook.png"></a>
+                  <a href="https://www.youtube.com/discord/"><img id="icons"
+                        src="images/youtube.png"></a>
+               </div>
+            </div>
+
+            <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4
+               mb-md-0">
+               <p id="foothead">Product</p>
+               <ul class="list-unstyled">
+                  <li><a href="https://discord.com/download" id="footsub">Download</a></li>
+                  <li><a href="https://discord.com/nitro" id="footsub">Nitro</a></li>
+                  <li><a href="https://discordstatus.com/" id="footsub">Status</a></li>
+               </ul>
+            </div>
+
+            <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4
+               mb-md-0">
+               <p id="foothead">Company</p>
+               <ul class="list-unstyled">
+                  <li><a href="https://discord.com/company" id="footsub">About</a></li>
+                  <li><a href="https://discord.com/jobs" id="footsub">Jobs</a></li>
+                  <li><a href="https://discord.com/branding" id="footsub">Branding</a></li>
+                  <li><a href="https://discord.com/newsroom" id="footsub">Newsroom</a></li>
+               </ul>
+            </div>
+
+            <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4
+               mb-md-0">
+               <p id="foothead">Resources</p>
+               <ul class="list-unstyled">
+                  <li><a href="https://discord.com/college" id="footsub">College</a></li>
+                  <li><a href="https://support.discord.com/hc/en-us"
+                        id="footsub">Support</a></li>
+                  <li><a href="https://discord.com/safetycenter" id="footsub">Safety</a></li>
+                  <li><a href="https://discord.com/blog" id="footsub">Blog</a></li>
+                  <li><a href="https://feedback.discord.com/" id="footsub">Feedback</a></li>
+                  <li><a href="https://discord.com/build" id="footsub">Developers</a></li>
+                  <li><a href="https://discord.com/streamkit" id="footsub">StreamKit</a></li>
+               </ul>
+            </div>
+
+            <div id="footerstuff" class="col-lg-2 col-md-6 col-sm-6 col-6 mb-4
+               mb-md-0">
+               <p id="foothead">Policies</p>
+               <ul class="list-unstyled">
+                  <li><a href="https://discord.com/terms" id="footsub">Terms</a></li>
+                  <li><a href="https://discord.com/privacy" id="footsub">Privacy</a></li>
+                  <li><a href="https://discord.com/" id="footsub">Cookie
+                        Settings</a></li>
+                  <li><a href="https://discord.com/guidelines" id="footsub">Guidelines</a></li>
+                  <li><a href="https://discord.com/acknowledgements"
+                        id="footsub">Acknowledgements</a></li>
+                  <li><a href="https://discord.com/licenses" id="footsub">Licenses</a></li>
+                  <li><a href="https://discord.com/moderation" id="footsub">Moderation</a></li>
+               </ul>
+            </div>
+         </div>
+         <hr class="solid">
+         <div id="bottom" class="d-flex align-items-center
+            justify-content-between">
+            <div>
+               <a id="odc" href="https://discord.com"><img
+                     src="images/discord.png"></a>
+            </div>
+            <div>
+               <button id="button3"
+                  onclick="location.href='http://discord.com/login'"
+                  class="open-discord">
+                  Open Discord
+               </button>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"></script>
+   </body>
 </html>

@@ -1,61 +1,75 @@
-.subpage{
+.subpage {
     padding-top: 10vw;
     padding-bottom: 10vw;
     width: 100%;
 }
-.subhdg{
+
+.subhdg {
     color: #23272a;
     font-family: 'whitney2';
 }
-#subcolor2{
+
+#subcolor2 {
     background-color: #f6f6f6;
 }
-.fifthpage{
+
+.fifthpage {
     background-color: #f6f6f6;
     padding-top: 8vw;
     padding-bottom: 8vw;
 }
-#fifthhead{
+
+#fifthhead {
     font-family: 'ginto_nord2';
     color: #23272a;
 }
-#fifthsub{
+
+#fifthsub {
     font-family: 'whitney2';
     color: black;
 }
-#button2{
+
+#button2 {
     color: white;
     background-color: #5865f2;
 }
 
-.fifthwrite{
+.fifthwrite {
     width: 65vw;
 }
-#fifthsub{
+
+#fifthsub {
     padding-top: 5vw;
 }
-.fifthdec{
+
+.fifthdec {
     padding-bottom: 4vw;
 }
-@media (max-width: 768px){
-    #button2{
+
+@media (max-width: 768px) {
+    #button2 {
         margin-left: 25px;
         margin-right: 25px;
     }
-    .fifthwrite,#fifthsub{
+
+    .fifthwrite,
+    #fifthsub {
         margin-left: 8vw;
     }
 }
-@media (max-width: 786px){
-    #fifthhead{
+
+@media (max-width: 786px) {
+    #fifthhead {
         width: 80vw;
         font-size: 4vw;
     }
-    .fifthdec{
+
+    .fifthdec {
         width: 80vw;
         text-align: start;
     }
-    .subpage{
+
+    .subpage {
         padding-top: 12vw;
         padding-bottom: 12vw;
         width: 100%;
